@@ -1,14 +1,14 @@
 import axios from "axios";
 import { brackets16 } from "../utils/brackets16";
-import { brackets08 } from "../utils/brackets08";
-import { brackets04 } from "../utils/brackets04";
-import { useEffect, useState } from "react";
+// import { brackets08 } from "../utils/brackets08";
+// import { brackets04 } from "../utils/brackets04";
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 
 function Table() {
-  const [test, setTest] = useState();
-  const [players, setPlayers] = useState([]);
-  const [participant, setParticipant] = useState([]);
+  // const [test, setTest] = useState();
+  // const [players, setPlayers] = useState([]);
+  // const [participant, setParticipant] = useState([]);
 
   useEffect(() => {
     const fetchPlayers = () => {
